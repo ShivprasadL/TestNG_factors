@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite_include_tag">
+  <test thread-count="5" name="Test_include_exclude">
+    <classes>
+      <class name="testNG_Keywords.Keyword_priority"/>	  
+      <methods>
+		  <include name="testMethodA"></include>
+		  <include name="testMethodC"></include>
+		  <exclude name="testMethodD"></exclude>
+		  <include name="testMethodE"></include>
+		  <include name="testMethodB"></include>		  
+	  </methods>
+	 <!-- </class>-->
+    </classes>
+  </test> <!-- Test_include_exclude -->
+</suite> <!-- Suite_include_tag -->
+   
