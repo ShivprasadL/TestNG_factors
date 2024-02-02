@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="system" value="Linux"/>
+	<parameter name="user" value="Admin"/>
+
+  <test thread-count="5" name="Test">
+	  <parameter name="browser" value="chrome"/>
+	  <parameter name="version" value="111"/>
+	  <parameter name="app" value="WMS"/>
+    <classes>
+      <class name="testNG_parameters.Parameters_FixedValues"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

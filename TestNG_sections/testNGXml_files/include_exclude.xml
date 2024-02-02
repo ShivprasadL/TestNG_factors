@@ -3,7 +3,7 @@
 <suite name="Suite_include_tag">
   <test thread-count="5" name="Test_include_exclude">
     <classes>
-      <class name="testNG_Keywords.Keyword_priority"/>	  
+      <class name="testNG_Keywords.Keyword_priority">	  
       <methods>
 		  <include name="testMethodA"></include>
 		  <include name="testMethodC"></include>
@@ -11,7 +11,7 @@
 		  <include name="testMethodE"></include>
 		  <include name="testMethodB"></include>		  
 	  </methods>
-	 <!-- </class>-->
+	<!-- </class>-->
     </classes>
   </test> <!-- Test_include_exclude -->
 </suite> <!-- Suite_include_tag -->

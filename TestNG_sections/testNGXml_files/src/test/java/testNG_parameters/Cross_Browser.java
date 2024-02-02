@@ -1,12 +1,13 @@
 package testNG_parameters;
 
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class Parameters_FixedValues {
+public class Cross_Browser {
 	
 	@Test
-	@Parameters("app")
+	@Parameters("app","browser")
 	public void apptype(String app) {
 		System.out.println("app using : "+app);
 	}
@@ -17,6 +18,7 @@ public class Parameters_FixedValues {
 		System.out.println("Browser using : "+browser);
 	}
 	
+//	@BeforeMethod(alwaysRun=false)
 	@Test
 	@Parameters("system")
 	public void systemUsed(String system) {
@@ -24,4 +26,3 @@ public class Parameters_FixedValues {
 	}
 
 }
-// ========================= run parametrs.xml file

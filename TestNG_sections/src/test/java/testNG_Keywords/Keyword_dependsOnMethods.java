@@ -1,6 +1,7 @@
 package testNG_Keywords;
 
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 
 public class Keyword_dependsOnMethods extends Keyword_priority
 {

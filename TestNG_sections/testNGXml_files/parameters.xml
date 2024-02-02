@@ -4,6 +4,7 @@
 	<parameter name="system" value="Linux"/>
   <test thread-count="5" name="Test">
 	  <parameter name="browser" value="chrome"/>
+	  <parameter name="version" value="111"/>
 	  <parameter name="app" value="WMS"/>
     <classes>
       <class name="testNG_parameters.Parameters_FixedValues"/>

@@ -2,6 +2,8 @@ package testNG_Keywords;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 
 public class Keyword_priority {
 	
@@ -15,7 +17,6 @@ public class Keyword_priority {
 	@Test(priority=1)
 	public void testB() {
 		System.out.println("Test - B");
-
 	}
 	
 	@Test(priority=2)

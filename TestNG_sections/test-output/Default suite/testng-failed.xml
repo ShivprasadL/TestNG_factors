@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNG_parameters.Parameters_FixedValues">
+      <class name="assertion.Soft_assertion_No_assertAll">
         <methods>
-          <include name="browserUsed"/>
-          <include name="systemUsed"/>
-          <include name="apptype"/>
+          <include name="division"/>
         </methods>
-      </class> <!-- testNG_parameters.Parameters_FixedValues -->
+      </class> <!-- assertion.Soft_assertion_No_assertAll -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
